@@ -90,10 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-     s.source_files  =  "include", "SobotTest6/**/*.{h,a}
+     s.source_files  =  "include", "SobotTest6/libSobotTest6.a
   #s.exclude_files = "Classes/Exclude"
 
-  #s.public_header_files = "include", ""
+    s.public_header_files = "include", "SobotTest6/**/*.{h}
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
