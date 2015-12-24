@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SobotTest6"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A test of SobotTest6."
 
   s.description  = <<-DESC
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Sobot-ios/SobotTest6.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/Sobot-ios/SobotTest6.git", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,9 @@ Pod::Spec.new do |s|
 
      s.source_files  =  "include", "SobotTest6/**/*.{h}"
 
+  #s.exclude_files = "Classes/Exclude"
 
-  #s.public_header_files = "include", "SobotTest6/**/*.{h}
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
