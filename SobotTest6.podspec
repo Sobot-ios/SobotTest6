@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "SobotTest6"
   s.version      = "0.0.5"
-  s.summary      = "A test of SobotTest6."
+  s.summary      = "A demo of SobotTest6."
 
   s.description  = <<-DESC
-                   A longer description of SobotTest6 in Markdown format.
+                   A demo of SobotTest6.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
