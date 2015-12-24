@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
      s.source_files  =  "include", "SobotTest6/**/*.{h,a}
   #s.exclude_files = "Classes/Exclude"
 
-   s.public_header_files = "include", ""
+  #s.public_header_files = "include", ""
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
